@@ -1,0 +1,87 @@
+p.contact {
+	font-size: 15px;
+	margin: 30px auto;
+}
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    background-image: none;
+}.btn-xl2 {
+	padding: 20px 40px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	color: #fff;
+	background-color: #999;
+	margin-top: 20px;
+}
+.line{/*白色的线*/
+	width: 80%;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 50px;
+	height: 1px;
+	background: #fff;
+	background-image: -webkit-linear-gradient(left, #f1c633, #fff, #f1c633);
+	background-image: -moz-linear-gradient(left, #f1c633, #fff, #f1c633);
+	background-image: -ms-linear-gradient(left, #f1c633, #fff, #f1c633);
+	background-image: -o-linear-gradient(left, #f1c633, #fff, #f1c633);
+	opacity: 0.5;
+}
+#portfolio .line, #team .line {
+	background-image: -webkit-linear-gradient(left, #cecece, #fff, #cecece);
+	background-image: -moz-linear-gradient(left, #cecece, #fff, #cecece);
+	background-image: -ms-linear-gradient(left, #cecece, #fff, #cecece);
+	background-image: -o-linear-gradient(left, #cecece, #fff, #cecece);
+}
+section#introduce{
+    padding: 100px 0;
+	background-color:#F4F4F4;
+	color: #666;	
+}
+
+section#One Piece{
+    padding: 100px 0;
+	background-color:#E0EEEE;
+	
+}
+
+section#skill {
+    padding: 100px 0;
+	background-color: #F4F4F4;
+	color: #666;	
+}
+
+section#Book {
+    padding: 100px 0;
+	background-color:#E0EEEE;
+	color: #666;	
+}
+
+section#contact {
+    padding: 100px 0;
+	background-color: #F4F4F4;
+	color: #666;	
+}
+section#contact .form-group {
+    margin-bottom: 25px;
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea {/*message的高度*/
+    padding: 15px;
+}
+
+section#contact .form-group input.form-control {
+    height: auto;
+}
+
+section#contact .form-group textarea.form-control {
+    height: 220px;
+}
+
+
+

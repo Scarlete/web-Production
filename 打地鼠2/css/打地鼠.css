@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+#background {
+	background: #49B32A;
+}
+h2 {
+	font-family: "微软雅黑";
+	font-size: 30px;
+	padding-left: 100px;
+}
+table td {
+	width: 100px;
+	height: 100px;
+}
+img {
+	margin-top: 30px;
+}
+#content {
+	z-index: 1;
+	margin-left: 40%;
+}
+#count {
+	width: 320px;
+	height: 40px;
+	background-color: #E8E8E8;
+	padding-left: 0px;
+	text-align: center;
+	color: red;
+	font-size: 18px;
+	line-height: 30px;
+	font-family: "微软雅黑";
+}
+#count .score {
+	text-align: center;
+	color: lightgreen;
+	font-size: 20px;
+	line-height: 30px;
+	font-family: "微软雅黑";
+}
+#history #id {
+	text-align: center;
+	color: lightgreen;
+	font-size: 20px;
+	line-height: 30px;
+	font-family: "微软雅黑";
+}
+#history {
+	position: absolute;
+	top: 60px;
+	right: 240px;
+	width: 180px;
+	height: 90px;
+	background-color: #E8E8E8;
+	color: lightblue;
+	font-size: 20px;
+	line-height: 80px;
+	text-align: center;
+}
+.clock {
+	position: absolute;
+	top: 0px;
+	right: 240px;
+	width: 180px;
+	height: 60px;
+	background-color: lightblue;
+	color: red;
+	font-size: 20px;
+	text-align: center;
+	line-height: 60px;
+}
+#cover {
+	margin-top: 0px;
+	position: absolute;
+	z-index: 2;
+	width: 320px;
+	height: 450px;
+	top: -150px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	background : rgba(128,128,128,0.5);
+	color: red;
+	font-size: 30px;
+	text-align: center;
+	vertical-align: middle;
+}
+

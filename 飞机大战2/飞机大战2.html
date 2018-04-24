@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>飞机大战</title>
+<link href="css/飞机大战2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="main">
+    <div id="titleScore">
+      <div>杀敌：<span id="killNum">0</span></div>
+      <div>分数：<span id="killScore">0</span></div>
+      <div>玩家血量：<span id="playBlood">500</span></div>
+    </div>
+    <div id="stopgame" onClick="mystopgame()">||</div>
+</div>
+<div id="stop">
+     <div class="button" onClick="continuegame()">继续游戏</div>
+     <div class="button" onClick="newgame()">新的游戏</div> 
+     <div class="button" onClick="closegame()">退出游戏</div>
+</div>
+<audio src="audio/河图 - 倾尽天下.mp3" id="startmusic"></audio>
+<audio src="audio/开炮.mp3" id="zdmusic"></audio>
+</body>
+<script src="js/飞机大战2.js"></script>
+</html>

@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+    padding:0;
+}
+#main{
+	  width:400px;
+	  height:600px;
+	  background:url(../images/bg.jpg);
+	  margin:30px auto;
+	  position:relative;
+	  overflow:hidden;
+}
+#titleScore{
+	font-size:18px;
+	font-weight:bold;
+	position:absolute;
+	margin-top:5px;
+	margin-left:5px;
+	color:#000000;
+	z-index:2;	
+}
+#stopgame{
+	width:35px;
+	height:35px;
+	border:3px solid:#806B6B;
+	color:#806B6B;
+	border-radius:40px;
+	text-align:center;
+	line-height:32px;
+	float:right;
+	margin-right:10px;
+	margin-top:10px;
+	/*display none*/
+	cursor:pointer;
+	font-weight:bolder;
+}
+#stop{
+    width:400px;
+	height:400px;
+	padding-top:200px;
+	position:absolute;
+	z-index:10;
+	background-color:#rgba(0,0,0,.6);
+	left:50%;
+	margin-left:-200px;
+	top:20px;
+	display:none;
+}
+.button{
+	 width:150px;
+	 height:50px;
+	 color:#ffffff;
+	 background-color:#rgba(0,0,0,.6);
+	 text-align:center;
+	 line-height:50px;
+	 border-radius:20px;
+	 font-size:20px;
+	 font-weight:bolder;
+	 margin:0 auto;
+	 margin-top:10px;
+	 cursor:pointer;
+	 
+}
